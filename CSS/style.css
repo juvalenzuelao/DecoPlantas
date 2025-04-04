@@ -2,9 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+
 }
 
 .banner {
+    margin-top: 10px;
     background: url('../imagenes/fondoHerramientas.jpg') no-repeat center center/cover;
     height: 245px;
     width: auto;
@@ -59,8 +61,9 @@ h1 {
 .imgAll {
     width: 350px; 
     height: auto;
+    margin-left: 60px;
     margin-right: 40px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 
@@ -74,11 +77,11 @@ h1 {
 }
 
 .final {
-    background-color: #a5673f;
+    background-color: #2962F2;
     color: white;
     padding: 1px;
     text-align: center;
-    width: 50%;
+    width: 100%;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
