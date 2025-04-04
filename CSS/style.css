@@ -5,7 +5,7 @@ body {
 }
 
 .banner {
-    background: url('../imagenes/fondo.jpg') no-repeat center center/cover;
+    background: url('../imagenes/fondoHerramientas.jpg') no-repeat center center/cover;
     height: 245px;
     width: auto;
     background-size: 90%;
@@ -46,7 +46,7 @@ h1 {
     border-radius: 30px;
 }
 
-.bodyPlanta {
+.bodyHerramientas {
     display: flex;
     align-items: center;
     width: 70%; 
@@ -64,11 +64,11 @@ h1 {
 }
 
 
-.infoPlanta h3 {
+.infoHerramientas h3 {
     font-size: 40px; 
 }
 
-.infoPlanta p {
+.infoHerramientas p {
     font-size: 40px; 
     font-weight: bold;
 }
@@ -82,57 +82,4 @@ h1 {
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
-}
-
-/*/
-.banner-Gym {
-    background: url('../imagenes/fondoGym.jpg') no-repeat center center/cover;
-    height: 345px;
-    width: auto;
-    background-size: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
-    padding-left: 30px;
-    text-align: left;
-    color: black;
-    padding-right: 500px;
-}
-
-.bodyGym {
-    display: flex;
-    align-items: center;
-    width: 70%; 
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #f4f4f4;
-}
-
-
-
-.banner-Herramienta{
-    background: url('../imagenes/fondoHerramientas.jpg') no-repeat center center/cover;
-    height: 345px;
-    width: auto;
-    background-size: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; 
-    padding-left: 30px;
-    text-align: left;
-    color: black;
-    padding-right: 500px;
-}
-
-.herramienta {
-    display: flex;
-    align-items: center;
-    width: 70%; 
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #f4f4f4;
 }
