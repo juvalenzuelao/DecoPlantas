@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background: url('../imagenes/fondo.jpg') no-repeat center center/cover;
+    height: 245px;
+    width: auto;
+    background-size: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding-left: 30px;
+    text-align: left;
+    color: black;
+    padding-right: 500px;
+}
+
+
+
+.banner img {
+    width: 500px;  
+    height: auto;
+    margin-right:5%;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.p {
+    font-size: 100px; 
+}
+
+h1 {
+    font-size: 40px;
+    padding-right: 100%; 
+}
+
+.plantas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.bodyPlanta {
+    display: flex;
+    align-items: center;
+    width: 70%; 
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+}
+
+.imgAll {
+    width: 350px; 
+    height: auto;
+    margin-right: 40px;
+    border-radius: 10px;
+}
+
+
+.infoPlanta h3 {
+    font-size: 40px; 
+}
+
+.infoPlanta p {
+    font-size: 40px; 
+    font-weight: bold;
+}
+
+.final {
+    background-color: #a5673f;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    width: 50%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*/
+.banner-Gym {
+    background: url('../imagenes/fondoGym.jpg') no-repeat center center/cover;
+    height: 345px;
+    width: auto;
+    background-size: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding-left: 30px;
+    text-align: left;
+    color: black;
+    padding-right: 500px;
+}
+
+.bodyGym {
+    display: flex;
+    align-items: center;
+    width: 70%; 
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+}
+
+
+
+.banner-Herramienta{
+    background: url('../imagenes/fondoHerramientas.jpg') no-repeat center center/cover;
+    height: 345px;
+    width: auto;
+    background-size: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    padding-left: 30px;
+    text-align: left;
+    color: black;
+    padding-right: 500px;
+}
+
+.herramienta {
+    display: flex;
+    align-items: center;
+    width: 70%; 
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #f4f4f4;
+}
